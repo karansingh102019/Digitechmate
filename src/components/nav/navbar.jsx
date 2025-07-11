@@ -14,8 +14,10 @@ const Navbar = () => {
         </div>
 
         <div className="main-bar">
-          <div className="logo">
-            <img src="/image.png" alt="Brand-logo" />
+          <div>
+            <Link className="logo" to="/">
+              <img src="/image.png" alt="Brand-logo" />
+            </Link>
           </div>
 
           <div className="nav-links">
@@ -27,7 +29,7 @@ const Navbar = () => {
             <Link to="/BackendDev">BackendDev</Link>
             <Link to="/BlockchainDeveloper">BlockChain-Dev</Link>
             <button className="live-chat">
-              <Link to ="/">New Courses</Link>
+              <Link to="/">New Courses</Link>
             </button>
           </div>
         </div>
